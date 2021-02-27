@@ -1,6 +1,8 @@
 ################ 
+#Purpose: Merge rowdylink attendance forms and count attendance from users 
+#Author: Victor Feagins 2/27/2021
 
-
+################## What to change
 #Input url folder location that contains rowdylink attendance files
 folder <- "https://drive.google.com/drive/u/0/folders/1yuEXjuImTygnMm7O52tKH1AxIRs-Ky3Z"
 
@@ -20,7 +22,7 @@ library("readxl")
 library("stringr")
 library("dplyr")
 
-###### Authenticate google account look at the console to sign in or use cached permisson
+###### Authenticate google account look at the console to sign in or use cached permission
 drive_auth() 
 
 
